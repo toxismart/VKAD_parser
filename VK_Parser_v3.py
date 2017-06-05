@@ -2,7 +2,7 @@ import vk
 import json
 import time
 import sys
-session = session = vk.AuthSession('6037750', 'leninanton@gmail.com', 'Jmpwl4pl5123')
+session = session = vk.AuthSession('vkapp', 'email', 'pass')
 api = vk.API(session, v='3.0', lang='ru', timeout=10)
 id1 = input("ID to parse: ")
 values = int(id1)
